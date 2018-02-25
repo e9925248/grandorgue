@@ -10,7 +10,7 @@ before_install:
   - brew install pkg-config
   - brew link pkg-config
   - brew install gettext jack docbook-xsl cmake fftw wavpack
-  - brew install wxmac
+  - brew install -v --devel wxmac
   - brew link gettext --force
 
 script:
